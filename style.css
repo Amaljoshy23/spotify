@@ -1,0 +1,118 @@
+.head{
+    padding: 0;
+    margin: 0;
+  }
+.body{
+    background-color: rgb(20, 16, 16);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    background-color: black;
+    padding: 20px;
+  }
+  .sidebar .logo img{
+    width: 140px;
+  }
+  .sidebar .navigation ul{
+    list-style: none;
+    margin-top: 20px;
+  }
+  .sidebar .navigation ul li{
+    padding: 10px;
+  }
+  .sidebar .navigation ul li a{
+    color: chartreuse;
+    text-decoration: double;
+    font-weight:bold;
+    font-size: 30px;
+  }
+  sidebar .navigation ul li a:hover
+  sidebar .navigation ul li a:active
+  sidebar .navigation ul li a:focus{
+    color: blue;
+  }
+  .main-container{
+    margin-left: 245px;
+    margin-bottom: 100px;
+  }
+  .topbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 14px 30px;
+  }
+  .topbar .prev-next-buttons button{
+    color:yellow;
+    cursor:not-allowed;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    font-size: 20px;
+    border: 0px;
+    background-color: darksalmon;
+    margin-right: 10px;
+  }
+  .sub_div{
+    padding-left: 1%;
+    background-color: #252524;
+    width: 300px;
+    height: 150px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.header{
+    position: absolute;
+    left: 400px;
+    top:5px;
+    width:1115px;
+    margin-top: 8px;
+}
+.right_btn_div{
+    display: inline;
+    position: absolute;
+    left: 950px;
+}
+.btn_left {
+    height: 50px;
+    border-radius: 15px;
+    background-color: black;
+    color: rgb(209, 27, 27);
+    width: 75px;
+    border: none;
+}
+.btn_right{
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(69, 207, 23);
+    width: 75px;
+    border: none;
+}
+.btn_sign{
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(222, 71, 20);
+    color: rgb(218, 15, 15);
+    width: 75px;
+    border: none;
+}
+.btn_login{
+    height: 50px;
+    border-radius: 15px;
+    width: 75px;
+    border: none;
+}
+.anhor_btn{
+    color: rgb(197, 17, 17);
+    text-decoration:double;
+}
+.topbar{
+    height: 250px;
+    border-radius: 20px;
+    width: 100px;
+}
